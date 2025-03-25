@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/react-dev_profile/static/css/main.b596ae96.css",
-    "main.js": "/react-dev_profile/static/js/main.e47720e9.js",
+    "main.js": "/react-dev_profile/static/js/main.37150614.js",
+    "static/media/alena.jpeg": "/react-dev_profile/static/media/alena.1f647f6d8eeb1e81e10c.jpeg",
     "index.html": "/react-dev_profile/index.html",
     "main.b596ae96.css.map": "/react-dev_profile/static/css/main.b596ae96.css.map",
-    "main.e47720e9.js.map": "/react-dev_profile/static/js/main.e47720e9.js.map"
+    "main.37150614.js.map": "/react-dev_profile/static/js/main.37150614.js.map"
   },
   "entrypoints": [
     "static/css/main.b596ae96.css",
-    "static/js/main.e47720e9.js"
+    "static/js/main.37150614.js"
   ]
 }
