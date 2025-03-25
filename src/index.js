@@ -2,13 +2,13 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 
-const skillsData = [
-  "HTML 💻",
-  "SCC / Sass 💅🏻",
-  "Javascript 🖥️",
-  "React ⚛️",
-  "Git / Github 🔗",
-];
+// const skillsData = [
+//   "HTML 💻",
+//   "SCC / Sass 💅🏻",
+//   "Javascript 🖥️",
+//   "React ⚛️",
+//   "Git / Github 🔗",
+// ];
 
 const skills = [
   {
@@ -30,14 +30,13 @@ const skills = [
   {
     skill: "Git / Github",
     level: "intermediate",
-    level: "advanced",
   },
 ];
 
 function App() {
   return (
     <div className="card">
-      <Avatar photoName="/ava/alena.jpeg" />
+      <Avatar photoName="./react-dev_profile/ava/alena.jpeg" />
       <div className="data">
         <Intro />
         {/* Should contain one Skill component
@@ -72,7 +71,7 @@ function SkillList() {
   return (
     <div className="skill-list">
       {skills.map((skill) => (
-        <Skill title={skill.skill} level={skill.level} />
+        <Skill title={skill.skill} level={skill.level} key={skill.skill} />
       ))}
     </div>
   );
