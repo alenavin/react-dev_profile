@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-dev_profile/static/css/main.b596ae96.css",
+    "main.js": "/react-dev_profile/static/js/main.8c2277a7.js",
+    "index.html": "/react-dev_profile/index.html",
+    "main.b596ae96.css.map": "/react-dev_profile/static/css/main.b596ae96.css.map",
+    "main.8c2277a7.js.map": "/react-dev_profile/static/js/main.8c2277a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b596ae96.css",
+    "static/js/main.8c2277a7.js"
+  ]
+}
