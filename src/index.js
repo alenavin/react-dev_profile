@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
+import alena from "../src/ava/alena.jpeg";
 
 // const skillsData = [
 //   "HTML 💻",
@@ -36,7 +37,7 @@ const skills = [
 function App() {
   return (
     <div className="card">
-      <Avatar photoName="./react-dev_profile/ava/alena.jpeg" />
+      <Avatar photoName={alena} />
       <div className="data">
         <Intro />
         {/* Should contain one Skill component
